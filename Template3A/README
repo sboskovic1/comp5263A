@@ -1,0 +1,12 @@
+Use this code to determine number of cache hits, missses, writebacks,  and execution time.
+You need to implement the function getWritebackAddress() in cache.c
+
+You can vary cache size and associativity using command line arguments.
+You can vary replacement policies PLRU and RANDO using the command line argument evictPolicy.
+
+Usage:.
+% gcc *.c ./yacsim.o -lm -o runme
+
+% ./runme --evictPolicy PLRU --numIterations 128 --trace 0  --cachesizeBits 7 --waysBits 0
+
+

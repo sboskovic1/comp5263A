@@ -1,0 +1,59 @@
+
+********************************************************************************
+********************************************************************************
+**                                                                            **
+**                      YACSIM Version 2.0, 3/6/93                            **
+**                                                                            **
+**            Copyright 1993 by Rice University, Houston, Texas               **
+**                                                                            **
+**        Send comments to: J. Robert Jump, ECE Dept., Rice University        **
+**       P.O. Box 1892, Houston, TX 77251; (713) 527-8101; jrj@rice.edu       **
+**                                                                            **
+********************************************************************************
+********************************************************************************
+
+
+******************************************************************************
+Num_ITERATIONS: 10	NUM_FUs: 8	NUM_COPIES: 1	NUM_WAITBUFS: 4	NUM_LSQ_SLOTS: 4
+******************************************************************************
+Cache Size (Bytes): 256	 Number Ways: 2	BLK_SIZE (bytes): 32
+******************************************************************************
+Base address of Physical Memory: 0x4141c0
+Base Physical Address allocated to  arrays: 0x414200
+
+Initialized Array memory Locations to 1, 2, 3, ...
+Initialized Cache ....
+
+****************************************************************************************
+Simulation ended  at 200000
+Execution completed at time  5507
+Retirement completed  at time  5637
+
+Number Instructions Retired: 90
+Number Stall Cycles: 199900
+Number Stall Cycles: Halt: 194493	WaitBufferFull: 0	BranchControl: 0	Branch Data: 0
+Number Stall Cycles LOADFP: 2453
+Number WAW Stall Cycles: 0
+Number WAR Stall Cycles: 5407
+
+Number Cache Hits: 30
+NUMBER Cache Misses: 30
+NUMBER Cache Write Backs: 8
+REG[0]: 10	REG[1]: 138	REG[2]: 4276776	REG[3]: 4	REG[4]: 4277288	REG[5]: 148	REG[6]: 4277800	REG[7]: 0	
+REG[8]: 0	REG[9]: -1	REG[10]: 0	REG[11]: 0	REG[12]: 0	REG[13]: 0	REG[14]: 0	REG[15]: 0	
+
+Final Destination Memory Array
+MEM[414600]: 130
+MEM[414604]: 132
+MEM[414608]: 134
+MEM[41460c]: 136
+MEM[414610]: 138
+MEM[414614]: 140
+MEM[414618]: 142
+MEM[41461c]: 264
+MEM[414620]: 146
+MEM[414624]: 266
+
+********************************************************************************
+************************* YACSIM - Normal Termination **************************
+********************************************************************************
