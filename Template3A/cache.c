@@ -79,8 +79,8 @@ int getVictim(int index) {
 
 unsigned  getWritebackAddress(int cacheIndex, int way) {
   // Return the writeback memory address of specified cache block
-
-  
+  int cacheTag = CACHE_TAG_ARRAY[cacheIndex][way].TAG;
+  return ( ( (unsigned long) cacheTag * CACHE_SIZE_SETS) + cacheIndex) << BLK_SIZE_BITS;  
 }
 
 void flushCache() {

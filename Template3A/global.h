@@ -20,12 +20,12 @@
 #define BNEZ 9
 #define HALT 10
 
-#define ADDFP_CYCLES 64 //256 
+#define ADDFP_CYCLES 256 //256 
 #define SUBFP_CYCLES  4
-#define MULFP_CYCLES  64 //  256 
-#define LOADFP_CYCLES   64 // 0
+#define MULFP_CYCLES  256 //  256 
+#define LOADFP_CYCLES   0 // 0
 #define INTADD_CYCLES 1
-#define STOREFP_CYCLES  64 // 2
+#define STOREFP_CYCLES  2 // 2
 #define COPYFP_CYCLES 1
 
 #define MAX_NUM_WAITBUFS 256
